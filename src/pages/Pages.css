@@ -1,0 +1,165 @@
+.hero-compact {
+  padding: 2rem 2rem;
+}
+
+.hero-compact h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.prose {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  line-height: 1.75;
+  font-size: 0.975rem;
+}
+
+.project-highlight {
+  padding-bottom: 0.5rem;
+}
+
+.project-highlight-label {
+  font-size: 0.8rem;
+  color: var(--accent-blue);
+  margin-bottom: 1rem;
+}
+
+.project-highlight-part {
+  margin-bottom: 1.5rem;
+}
+
+.project-highlight-part-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.project-highlight-tags {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-highlight-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.project-highlight-image {
+  aspect-ratio: 16 / 10;
+  border: none;
+}
+
+.project-highlight-image img,
+.project-highlight-image .image-placeholder {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-highlight-image figcaption {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .project-highlight-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  color: var(--text-primary);
+}
+
+.card-subtitle {
+  font-size: 0.8rem;
+  color: var(--accent-blue);
+  margin-bottom: 0.75rem;
+}
+
+.card-desc {
+  color: var(--text-secondary);
+  font-size: 0.925rem;
+  line-height: 1.65;
+}
+
+.card-link {
+  margin-top: 1rem;
+  display: inline-flex;
+}
+
+.achievement-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.achievement-card .tags {
+  margin-top: 0.25rem;
+}
+
+.achievement-highlights {
+  margin: 0.5rem 0 0.75rem;
+  padding-left: 1.15rem;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.achievement-highlights li {
+  margin-bottom: 0.35rem;
+}
+
+.achievement-card-image {
+  margin-top: 1rem;
+  border: none;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.achievement-card-image img,
+.achievement-card-image .image-placeholder {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.achievement-card-image figcaption {
+  display: none;
+}
+
+.mentor-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(124, 92, 255, 0.06);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.mentor-label {
+  color: var(--accent-violet);
+  font-size: 0.75rem;
+}
+
+.mentor-sep {
+  color: var(--text-muted);
+}
+
+.responsibilities li {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.tags-large .tag {
+  font-size: 0.8rem;
+  padding: 0.4rem 0.85rem;
+}
