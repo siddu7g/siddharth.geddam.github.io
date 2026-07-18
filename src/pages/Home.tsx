@@ -33,7 +33,7 @@ export function Home() {
           </div>
           <div className="stat-grid">
             <div className="stat">
-              <div className="stat-value">Intern @ Tesla</div>
+              <div className="stat-value">AI Hardware Intern @ Tesla</div>
             </div>
             <div className="stat">
               <div className="stat-value">AI/ML</div>

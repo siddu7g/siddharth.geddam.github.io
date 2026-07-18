@@ -5,8 +5,8 @@ const links = [
   { to: '/', label: 'Home' },
   { to: '/research', label: 'Research' },
   { to: '/coast-autonomous', label: 'COAST' },
-  { to: '/ml-projects', label: 'ML / AI' },
   { to: '/robotics', label: 'Robotics & UAV' },
+  { to: '/ml-projects', label: 'ML / AI' },
 ];
 
 export function Navbar() {
