@@ -9,6 +9,11 @@ export const images = {
     { src: 'images/research/lab-setup.jpg', alt: 'SmartNet Laboratory setup', caption: 'SmartNet Laboratory' },
     { src: 'images/research/lab-gallery-2.jpg', alt: 'Research laboratory', caption: 'Research Laboratory' },
   ],
+  researchAreas: {
+    src: 'images/research/research-areas.jpg',
+    alt: 'Multi-UAV coordinated target search',
+    caption: 'Multi-UAV Coordinated Target Search',
+  },
   researchMultiUav: {
     src: 'images/research/multi-uav.jpg',
     alt: 'Multi-UAV coordination',

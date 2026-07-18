@@ -20,6 +20,7 @@ Drop your photos here with these exact filenames. Supported formats: `.jpg`, `.j
 |------|-----------|
 | `research/lab-setup.jpg` | Research Gallery (top) |
 | `research/lab-gallery-2.jpg` | Research Gallery (below lab-setup, same size) |
+| `research/research-areas.jpg` | Research Areas — grid slot next to Multi-UAV Coordinated Target Search |
 | `research/multi-uav.jpg` | After Research Areas section |
 | `research/wibotics.jpg` | After Research Projects section |
 

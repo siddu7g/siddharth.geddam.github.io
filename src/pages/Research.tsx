@@ -82,6 +82,12 @@ export function Research() {
                 )}
               </article>
             ))}
+            <ImageFrame
+              src={images.researchAreas.src}
+              alt={images.researchAreas.alt}
+              caption={images.researchAreas.caption}
+              className="research-areas-image"
+            />
           </div>
           <ImageFrame
             src={images.researchMultiUav.src}
