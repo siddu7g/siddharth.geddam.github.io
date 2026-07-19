@@ -24,11 +24,11 @@ export function Home() {
             {contact.university} · {contact.years}
           </p>
           <div className="hero-actions">
-            <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-outline">
-              LinkedIn →
-            </a>
             <a href={contact.github} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
               GitHub →
+            </a>
+            <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-linkedin">
+              LinkedIn →
             </a>
             <a href={`mailto:${contact.email}`} className="btn btn-outline">
               Get in Touch
