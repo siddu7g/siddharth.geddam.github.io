@@ -56,6 +56,7 @@ export const researchMultiUavVideo = {
 export const contact = {
   name: 'Siddhartha Geddam',
   email: 'sidatstates@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/siddhartha-geddam-327707284/',
   github: 'https://github.com/siddu7g',
   university: 'University of North Carolina at Charlotte',
   degree: 'B.S. Electrical and Computer Engineering',
