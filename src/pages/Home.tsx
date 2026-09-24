@@ -36,7 +36,7 @@ export function Home() {
           </div>
           <div className="stat-grid">
             <div className="stat">
-              <div className="stat-value">AI Hardware Intern @ Tesla</div>
+              <div className="stat-value">Robotics Intern @ Tesla</div>
             </div>
             <div className="stat">
               <div className="stat-value">AI/ML</div>
@@ -61,13 +61,12 @@ export function Home() {
           />
           <div className="profile-intro">
             <h2>{contact.name}</h2>
-            <p className="profile-years mono">{contact.years}</p>
             <p className="profile-tagline">
               {contact.location}
               <br />
               {contact.degree} · {contact.concentration}
               <br />
-              {contact.university}
+              {contact.university} · {contact.years}
             </p>
           </div>
         </section>
